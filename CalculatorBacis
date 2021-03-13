@@ -1,0 +1,29 @@
+import java.util.Scanner;
+public class Calculator1
+{
+	public static void main(String[] args)
+	Scanner scan=new Scanner
+	(System.in);
+	int a,b,op;
+	System.out.println("enter your two numbers");
+	a=scan.nextInt();
+	b=scan.nextInt();
+	System.out.printLn("enter your choice of operation");
+	op=scan.nextIn();
+	cal2 ob=new cal2();
+	if(op==add)
+		ob.add(a,b);
+	else if(op==sub)
+		ob.sub(a,b);
+	else
+		System.out.println("entered is the invalid choice");
+
+	public class cal2{
+		public int add(int a, int b)
+		int c=a+b;
+		return c;
+	}
+	public int sub(int a, int b)
+	int c=a-b;
+	return z;
+}
